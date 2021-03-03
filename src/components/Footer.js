@@ -29,9 +29,9 @@ export default function Footer() {
                 : <div className="row">
                     <label htmlFor="all">
                         <input type="checkbox" name="all" id="all" onChange={handleCheckAll} checked={checkAll} />
-        Selecionar Tudo
+        Todos
         </label>
-                    <p> Você tem {newTodosComplete().length} tarefas para fazer </p>
+                    <p>Você tem {newTodosComplete().length} tarefa(s)! </p>
                     <button id="delete" onClick={deleteTodo}>Deletar</button>
 
                 </div>
