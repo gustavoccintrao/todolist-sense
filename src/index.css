@@ -10,9 +10,9 @@
 }
 
 .App{
-    max-width: 600px;
+    max-width: 650px;
     width: 100%;
-    min-height: 400px;
+    min-height: 300px;
     box-shadow: 0 2px 15px #555;
     margin: 4rem auto;
     padding: 2rem;
@@ -34,7 +34,7 @@ form{
 }
 
 form input{
-    font: 400 1.25rem "Rajdhani", sans-serif;
+    font: 500 1.1rem "Rajdhani", sans-serif;
 }
  form input, 
  form button{
@@ -50,11 +50,16 @@ form button{
     color: white;
     letter-spacing: 2px;
     cursor: pointer; 
+    font: 500 1rem "Rajdhani", sans-serif;
     
 }
 
 form button:hover{
     filter: brightness(0.9);
+}
+
+ul{
+    font: 500 1rem "Rajdhani", sans-serif;
 }
  ul li{
     list-style: none;
@@ -66,6 +71,9 @@ form button:hover{
     justify-content: space-between;
     align-items: center;
     text-transform: capitalize; 
+    font: 500 1rem "Rajdhani", sans-serif;
+
+   
 }
 ul li .active {
     opacity: 0.5;
@@ -76,6 +84,7 @@ ul li input,
 .row input{
     margin-right: 5px;
     transform: translateY(1px);
+    font: 500 1rem "Rajdhani", sans-serif;
 }
 
 ul li button,
@@ -86,6 +95,7 @@ ul li button,
     background:rgb(20, 125, 193);
     padding: 5px 15px;
     cursor: pointer; 
+    font: 500 1rem "Rajdhani", sans-serif;
 }
 
 ul li button:hover,
@@ -105,6 +115,7 @@ ul li button:disabled{
 }
 
 .row #delete{
+    font: 500 1rem "Rajdhani", sans-serif;
     background: rgb(229,67,48);
 }
 
