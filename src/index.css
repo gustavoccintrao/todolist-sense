@@ -101,3 +101,9 @@ ul li button:disabled{
         padding: 10px;
     }
 }
+
+h2{
+    text-align: center;
+    color: crimson;
+    font-size: 1rem;
+}
