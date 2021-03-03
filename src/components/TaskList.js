@@ -15,12 +15,22 @@ export default function TaskList() {
         setTodos(newTodos)
     }
 
+    const handleEditTodos = (editvalue, id) => {
+        const newTodos = [...todos]
+        newTodos.forEach((todo, index) => {
+            if (index === id) {
+                todo.name = editvalue;
+            }
+        })
+        setTodos(newTodos);
+    }
+
     return (
         <ul>
             {
                 todos.map((todo, index) => (
                     <Task todo={todo} key={index} id={index}
-                        checkComplete={switchComplete} />
+                        checkComplete={switchComplete} handleEditTodos={handleEditTodos} />
                 ))
             }
         </ul>

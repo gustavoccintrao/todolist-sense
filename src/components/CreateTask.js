@@ -4,7 +4,7 @@ import { DataContext } from './DataProvider';
 
 export default function CreateTask() {
     const [todos, setTodos] = useContext(DataContext);
-    const [todoName, setTodoName] = useState("");
+    const [todoName, setTodoName] = useState('');
 
     const addTodo = e => {
         e.preventDefault();
